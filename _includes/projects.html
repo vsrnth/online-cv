@@ -7,35 +7,45 @@
                     <span class="project-title"><a href="#hook">Datastore</a></span>
                     <span class="project-tagline">
                     <ul>
+                        <li>A ticket would be generated if any datacenter host had hardware issues, or was out of contact for 15 minutes.</li>
+                        <li>Any small config change mistake, could open thousands of tickets since those hosts were unavailable.</li>
                         <li>Closed tickets if the host was up, thereby reducing manual effort in ticket closure.</li>
                         <li>Generated pending ticket reports, providing accurate information on which tickets the team needs to work on.</li>
-                        <li>Leveraged redis to maintain and close queue consisting of thousands of jobs.</li>
+                        <li>Leveraged redis to maintain and close queue consisting of thousands of background jobs.</li>
                     </ul>
                     </span>
 
                 </div><!--//item-->
+                
                 <div class="item">
                     <span class="project-title"><a href="#" target="_blank">Almanac</a></span>
                     <span class="project-tagline">
                     <ul>
-                    <li> Replaced earlier process of shift creation; in which keeping track of how many shifts a person did was a hassle.</li>
-                    <li>Provided updated list of associates in team which would be updated everyday.</li>
-                    <li>Tracks leaves, comp-offs and graveyard shifts.</li>
-                    <li>Decreased time to prepare monthly shift plan to 1 hour from 3 hours.</li>
+                        <li>Replaced earlier process of shift creation; in which keeping track of how many shifts a person did was a hassle.</li>
+                        <li>Provided updated list of associates in team which would be updated everyday.</li>
+                        <li>Tracks leaves, comp-offs and graveyard shifts.</li>
+                        <li>Decreased time to prepare monthly shift plan to 1 hour from 5 hours.</li>
+                        <li>Removed the issue of sharing the plan, across shifts.</li>
+                    </ul>
                 </div><!--//item-->
+
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Effort Tracker</a></span> <span class="project-tagline">
-                    <ul>
-                    <li>Helps track effort for each associate, segregated by issue.</li>
-                    <li>Provides crucial information in the form of a Dashboard regarding time spent on each activity category.</li>
-                    </li>
-                    </ul></span>
+                    <span class="project-title"><a href="#" target="_blank">Effort Tracker</a></span> 
+                    <span class="project-tagline">
+                        <ul>
+                            <li>Helps track effort for each associate, segregated by issue also while tracking effort spent and time taken.</li>
+                            <li>Provides crucial information in the form of a dashboard regarding time spent on each activity category.</li>
+                        </ul>
+                    </span>
                 </div><!--//item-->
+                
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Paging Dashboard</a></span> <span class="project-tagline">
-                    <ul>
-                    <li>Earlier the offshore team, had to determine who was in shift and then find their contact details in the process of contacting them.</li>
-                    <li>This application leveraging internal API makes contacting the onsite team easy.</li>
-                    </ul> </span>
+                    <span class="project-title"><a href="#" target="_blank">Paging Dashboard</a></span> 
+                    <span class="project-tagline">
+                        <ul>
+                            <li>The offshore team, earlier had to determine who was in shift and then find their contact details in the process of contacting them.</li>
+                            <li>This application leveraged PagerDuty API, made contacting the onshore team simple.</li>
+                        </ul>
+                     </span>
                 </div><!--//item-->
             </section><!--//section-->
